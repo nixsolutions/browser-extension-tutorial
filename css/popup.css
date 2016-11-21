@@ -1,0 +1,98 @@
+body {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #61045F;
+}
+
+.navbar-block {
+   padding: 10px;
+}
+
+#popup {
+    width: 420px;
+    height: 600px;
+}
+
+#popup a {
+    color: #61045F;
+}
+
+#popup .nav-tabs > li > a {
+    background: #bd9090;
+    background: -webkit-linear-gradient(to left, #bd9090 , #c5a9ba);
+    background: linear-gradient(to left, #bd9090 , #c5a9ba); /
+    border: 1px solid #af77ab;
+    border-bottom-color: transparent;
+    color: #fff;
+    padding: 10px;
+}
+#popup .nav-tabs > li.active > a, #popup .nav-tabs > li.active > a:focus, #popup .nav-tabs > li.active > a:hover,
+    .nav-tabs > li > a:hover {
+    background: #AA076B;
+    background: -webkit-linear-gradient(to left, #AA076B , #61045F);
+    background: linear-gradient(to left, #AA076B , #61045F);
+    border: 1px solid #af77ab;
+    border-bottom-color: transparent;
+}
+
+#popup .nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs > li {
+    width: 33%;
+}
+
+#bookmarks-popup ul {
+    padding: 8px;
+}
+
+#bookmarks-popup ul li {
+    color: #61045F;
+    font-weight: bold;
+    list-style: square;
+}
+
+#bookmarks-popup ul > li > ul {
+    padding-left: 15px;
+}
+
+#bookmarks-popup ul > li > ul > li {
+    list-style: disc;
+    font-weight: normal;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+    color: #fff;
+}
+
+.ui-widget-overlay {
+    background: none!important;
+}
+
+#clear-history {
+    padding: 5px 15px;
+    margin-right: 5px;
+}
+
+.links-block {
+    padding: 10px 0px;
+}
+
+.control {
+    margin-left: 10px;
+}
+
+.control a {
+    color: #fff!important;
+}
+
+#adddialog {
+    display: none;
+}
+
+#deletedialog {
+    display: none;
+}
+
+

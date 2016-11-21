@@ -1,0 +1,39 @@
+body {
+    background: #AA076B;
+    background: -webkit-linear-gradient(to left, #AA076B , #61045F);
+    background: linear-gradient(to left, #AA076B , #61045F);
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    max-width: 450px;
+}
+
+.search {
+    margin: 10px 0;
+}
+.site-block {
+    background-color: rgba(138, 89, 130, 0.51);
+    height: 180px;
+    display: block;
+    padding: 4px;
+    border: 1px solid #af77ab;
+    border-radius: 4px;
+    margin: 10px;
+    padding-top: 30%;
+}
+
+.site-block a {
+    color: #fff;
+}
+.site-name {
+    text-align: center;
+}
+.empty-line {
+    height: 10%;
+}
+
+

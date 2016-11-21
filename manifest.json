@@ -1,0 +1,19 @@
+{
+  "name": "Blank new tab page",
+  "description": "Override the new tab page with a blank one",
+  "version": "0.1",
+  "chrome_url_overrides": {
+    "newtab": "blank.html"
+  },
+  "manifest_version": 2,
+  "permissions": [
+    "topSites",
+    "bookmarks",
+    "history"
+  ],
+  "browser_action": {
+    "default_icon": "img/icon.png",
+    "default_title": "New Tab",
+    "default_popup": "popup.html"
+  }
+}
